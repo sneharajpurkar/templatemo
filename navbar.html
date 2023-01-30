@@ -26,10 +26,10 @@
             background: transparent;
             background: #7a6ad8;
             color: #fff;
-            height: 35px;
+            height: 80px;
             width: 100%;
-            border-bottom-left-radius: 15px;
-            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
         }
 
         #navbar {
@@ -37,67 +37,422 @@
         }
 
         #main-nav {
-            font-size: 10px;
+            font-size: 20px;
             text-transform: uppercase;
             color: #fff;
             font-weight: 600;
-            margin-left: 50px;
-            padding-top: 7.5px;
+            margin-left: 80px;
+            padding-top: 13px;
             border-right: 1px solid rgba(250, 250, 250, 0.3);
         }
-        #search-bar{
-            margin-top: 10px;
+
+        #search-bar {
+            margin-top: 20px;
             margin-left: 15px;
-            font-size: 9px;
+            font-size: 15px;
             background-color: rgba(250, 250, 250, 0.3);
             border-radius: 20px;
-            height: 14px;
-            width: 130px;
-            
+            height: 40px;
+            width: 200px;
         }
-        #search-bar>input{
-            background-color:  rgba(250, 250, 250, 0.3);
+
+        #search-bar>input {
+            background-color: rgba(250, 250, 250, 0.3);
             border: none;
-            outline: none; 
-            font-size: 8px;
-            margin-left: 5px;  
-            margin-top: 2px;
+            outline: none;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-top: 11px;
+            width: 110px;
         }
-        #search-bar>span>i{
+
+        #search-bar>span>i {
             height: 10px;
             width: 10px;
-            margin-left: 5px;
+            margin-left: 25px;
         }
-        #menu{
-            font-size: 10px;
-            margin-top: 8px; 
-            margin-right: 45px;       
+
+        #menu {
+            font-size: 30px;
+            margin-top: 15px;
+            margin-right: 50px;
         }
-        #button{
-            height: 20px;
-            width: 65px;
+
+        #button {
+            height: 50px;
+            width: 100px;
             /* border: 1px solid red; */
-            white-space:pre;
+            white-space: pre;
             background-color: #7a6ad8;
             border: none;
             outline: none;
             color: #fff;
-            font-size: 10px;
+            font-size: 14px;
             cursor: pointer;
         }
-        #button:hover{
+
+        #button:hover {
             background-color: rgba(250, 250, 250, 0.3);
-            height: 20px;
-            width: 65px;
+            height: 50px;
+            width: 100px;
             border-radius: 30px;
         }
-        
-        #container2{
+
+        #container2 {
             background: #7a6ad8;
             color: #fff;
-            height: 300px;
+            height: 700px;
             width: 100%;
-            border-bottom-right-radius: 100px;
+            border-bottom-right-radius: 200px;
+        }
+
+        #icon {
+            display: flex;
+            flex-direction: column;
+            padding-top: 500px;
+
+        }
+
+        .dot {
+            height: 50px;
+            width: 50px;
+            background-color: #9588e1;
+            color: #fff;
+            border-radius: 70%;
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+        .dot>i {
+            margin-left: 18px;
+            margin-top: 13px;
+            font-size: 25px;
+        }
+
+        #header {
+            margin-top: -300px;
+            margin-left: 300px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+            height: 500px;
+            width: 1200px;
+            margin-top: -500px;
+            border-radius: 20px;
+            margin-left: 200px;
+        }
+
+        #header>span {
+            background-color: #7a6ad8;
+            color: #fff;
+            font-size: 14px;
+            margin-left: 50px;
+            margin-top: 70px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #header>h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 70px;
+            width: 60%;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #header>p {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            width: 65%;
+            font-size: 14px;
+            line-height: 28px;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+        #bottom {
+            display: flex;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        #first {
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            color: #7a6ad8;
+            background-color: #fff;
+            display: inline-block;
+            height: 50px;
+            line-height: 50px;
+            padding: 0px 20px;
+            border-radius: 25px;
+            font-weight: 500;
+        }
+
+        #second {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        #second>i {
+            color: #7a6ad8;
+            background-color: #fff;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+        #container3 {
+            padding-top: 30px;
+            margin-top: 120px;
+            max-width: 1320px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 160px;
+            /* flex-direction: row;
+            flex-wrap: nowrap; */
+        }
+
+        #home1 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img1 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img1>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img1>img:hover {
+            height: 80px;
+        }
+
+        #div {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box1 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+
+        }
+
+        #box1>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box1>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+
+        #home2 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img2 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img2>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img2>img:hover {
+            height: 80px;
+        }
+
+        #div2 {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box2 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+        }
+
+        #box2>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box2>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a2>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+
+        #home3 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img3 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img3>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img3>img:hover {
+            height: 80px;
+        }
+
+        #div3 {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box3 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+        }
+
+        #box3>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box3>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a3>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
         }
     </style>
 </head>
@@ -112,23 +467,88 @@
             </div>
             <div id="search-bar">
                 <input type="text" placeholder="Type something">
+
                 <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                            </div>
+            </div>
         </div>
         <div id="menu">
-                <button id="button">Home</button>
-                <button id="button">Services</button>
-                <button id="button">Courses</button>
-                <button id="button">Team</button>
-                <button id="button">Events</button>
-                <button id="button">Register Now!</button>
+            <button id="button">Home</button>
+            <button id="button">Services</button>
+            <button id="button">Courses</button>
+            <button id="button">Team</button>
+            <button id="button">Events</button>
+            <button id="button">Register Now!</button>
         </div>
     </div>
 
     <div id="container2">
-         <div>
-             
-         </div>
+        <div id="icon">
+            <span class="dot"><i class="fa-solid fa-angle-left"></i></span>
+            <span class="dot"><i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        <div id="header">
+            <span>BEST RESULTS</span>
+            <h2>Get the best result out of your efforts</h2>
+            <p>You are allowed to use this template for any educational or commercial purpose. You are not allowed to
+                re-distribute the template ZIP file on any other website.</p>
+
+            <div id="bottom">
+                <div>
+                    <a id="first">Request Demo</a>
+                </div>
+                <div>
+                    <a id="second">
+                        <i class="fa-solid fa-play"></i>
+                        "What's the best result?"
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container3">
+        <div id="home1">
+            <div id="img1">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-01.png">
+            </div>
+            <div id="div">
+                <div id="box1">
+                    <h4>Online Degrees</h4>
+                    <p>Whenever you need free templates in HTML CSS, you just remember TemplateMo website.</p>
+                </div>
+                <div id="a">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
+        <div id="home2">
+            <div id="img2">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-02.png">
+            </div>
+            <div id="div2">
+                <div id="box2">
+                    <h4>Short Courses</h4>
+                    <p>You can browse free templates based on different tags such as digital marketing, etc.</p>
+                </div>
+                <div id="a2">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
+        <div id="home3">
+            <div id="img3">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-03.png">
+            </div>
+            <div id="div3">
+                <div id="box3">
+                    <h4>Web Experts</h4>
+                    <p>You can start learning HTML CSS by modifying free templates from our website too.</p>
+                </div>
+                <div id="a3">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
